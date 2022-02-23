@@ -1,0 +1,7 @@
+Javascript code patterns
+
+
+
+
+
+
