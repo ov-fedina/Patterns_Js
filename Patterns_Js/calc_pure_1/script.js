@@ -5,7 +5,7 @@ We take two numbers.
 We look at the value in the variable for the selected action.
 Depending on this, we calculate the result. */
 
-alert('Hello, World! Welcom to Calculator!'); // We write greetings!
+alert('Hello, World! Welcome to Calculator!'); // We write greetings!
 
 // Variable that stores the selected mathematical action.
 var op;
