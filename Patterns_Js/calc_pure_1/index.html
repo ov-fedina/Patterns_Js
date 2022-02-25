@@ -1,22 +1,29 @@
+<!--Operation logic:
+Let's make an input field for the first number.
+Under it we will place 4 buttons with mathematical actions.
+Then we will make an input field for the second number.
+And at the bottom there will be a "Count" button.
+-->
+
 <!DOCTYPE html>
 <html lang="ru">
 
 <head>
   <meta charset="utf-8">
   <title>Calculator</title>
+  <!--Add CSS scripts here-->
   <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
 
-  <!-- write the title -->
+  <!-- Write the title -->
   <h1 class="title">Calculator</h1>
 
-  <!-- input field for the first number -->
+  <!-- Input field for the first number -->
   <input id="num1" />
 
-  <!-- block with buttons -->
-
+  <!-- Block with buttons -->
   <div id="operator_btns">
     <button id="plus" onclick="sel_light('plus')">+</button>
     <button id="minus" onclick="sel_light('minus')">-</button>
@@ -24,18 +31,17 @@
     <button id="divide" onclick="sel_light('divide')">:</button>
   </div>
 
-  <!-- second number input field -->
+  <!-- Second number input field -->
   <input id="num2" />
   <br>
 
-  <!-- button for calculations -->
+  <!-- Button for calculations -->
   <button onclick="func()">Count</button>
 
-  <!-- result will be here -->
+  <!-- Result will be here -->
   <p id="result"></p>
 
-
+<!--Add Javascript script here-->
   <script src="script.js"></script>
 </body>
-
 </html>

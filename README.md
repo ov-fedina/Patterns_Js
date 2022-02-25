@@ -1,6 +1,7 @@
-Javascript code patterns
+Javascript code patterns with comments.
 
-The files in the folder "calc_pure_1" are written in pure JavaScript code.
+Content:
+1. The files in the "calc_pure_1" folder are written in pure JavaScript code and are simple calculator scripts.
 
 
 

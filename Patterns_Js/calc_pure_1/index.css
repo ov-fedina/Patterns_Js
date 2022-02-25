@@ -1,4 +1,4 @@
-/* set general parameters for the entire page: font and indents */
+/* Set general parameters for the entire page: font and indents */
 body {
   text-align: center;
   margin: 10;
@@ -7,7 +7,7 @@ body {
 }
 
 
-/* customize the appearance of the input fields */
+/* Customize the appearance of the input fields */
 input {
   display: inline-block;
   margin: 20px auto;
@@ -17,6 +17,8 @@ input {
   font-size: 16px;
 }
 
+
+/* Let's add a separate style for the buttons and write all the parameters in it */
 button {
   font-family: Verdana, Arial, sans-serif;
   font-size: 16px;
@@ -24,7 +26,7 @@ button {
   padding: 10px;
 }
 
-/* highlight style of the selected operation */
+/* Highlight style of the selected operation */
 .light {
   background-color: orangered;
 }
